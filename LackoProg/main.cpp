@@ -141,6 +141,8 @@ int main(int argc, const char * argv[]) {
     printf("bz: ");
     scanf("%lf", &bz);
     
+    // hello
+    
     
     cx = ay * bz - az * by;
     cy = az * bx - ax * bz;
