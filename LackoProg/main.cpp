@@ -6,7 +6,7 @@
 //  Copyright © 2015. okocsis. All rights reserved.
 //
 
-#include <iostream>
+//#include <iostream>
 #include <math.h>
 #include <stdio.h>
 
@@ -15,12 +15,38 @@
 
 typedef unsigned char byte;
 
+typedef struct {
+    double x;
+    double y;
+    double z;
+} KL_Vector;
+
+void vectorNuller(KL_Vector * vectorRef) {
+    
+    vectorRef->x = 0;
+    vectorRef->y = 0;
+    (*vectorRef).z = 0;
+    
+}
+
+int osszeado( int k, int l) {
+    
+    return k + l;
+    
+    
+}
+
 
 int main(int argc, const char * argv[]) {
     
     
+
+    int osszeg;
     
+
     
+    osszeg = osszeado(5, 4);
+    printf("%i", osszeg);
     
     
     //    z=0;
@@ -125,32 +151,38 @@ int main(int argc, const char * argv[]) {
     //
     //    scanf_s("%lf", &a);
     
+    KL_Vector a;
+    KL_Vector b;
+    KL_Vector c;
+    
+    vectorNuller(&a);
+    vectorNuller(&b);
+    vectorNuller(&c);
     
     
-    double ax, ay, az, bx, by, bz, cx, cy, cz;
-    printf("ax: ");
-    scanf("%lf", &ax);
-    printf("ay: ");
-    scanf("%lf", &ay);
-    printf("az: ");
-    scanf("%lf", &az);
-    printf("bx: ");
-    scanf("%lf", &bx);
-    printf("by: ");
-    scanf("%lf", &by);
-    printf("bz: ");
-    scanf("%lf", &bz);
+    printf("a.x: ");
+    scanf("%lf", &a.x);
+    printf("a.y: ");
+    scanf("%lf", &a.y);
+    printf("a.z: ");
+    scanf("%lf", &a.z);
+    printf("b.x: ");
+    scanf("%lf", &b.x);
+    printf("b.y: ");
+    scanf("%lf", &b.y);
+    printf("b.z: ");
+    scanf("%lf", &b.z);
     
     // hello
     
     
-    cx = ay * bz - az * by;
-    cy = az * bx - ax * bz;
-    cz = ax * by - ay * bx;
+    c.x = a.y * b.z - a.z * b.y;
+    c.y = a.z * b.x - a.x * b.z;
+    c.z = a.x * b.y - a.y * b.x;
     
-    printf("cx= %lf\n", cx);
-    printf("cy= %lf\n", cy);
-    printf("cz= %lf\n", cy);
+    printf("cx= %lf\n", c.x);
+    printf("cy= %lf\n", c.y);
+    printf("cz= %lf\n", c.y);
     printf("juhuhu");
     
     

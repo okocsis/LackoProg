@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		C36419201BB7109A00D74FF2 /* LackoProg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LackoProg; sourceTree = BUILT_PRODUCTS_DIR; };
-		C36419231BB7109A00D74FF2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C36419231BB7109A00D74FF2 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +235,7 @@
 				C36419291BB7109A00D74FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
