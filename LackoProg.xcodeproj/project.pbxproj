@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C36419241BB7109A00D74FF2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C36419231BB7109A00D74FF2 /* main.cpp */; };
+		C3F50DC31BC9B1C4002A18FA /* 10.08_kl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C3F50DAD1BC9B103002A18FA /* 10.08_kl.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C36419201BB7109A00D74FF2 /* LackoProg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LackoProg; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36419231BB7109A00D74FF2 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = main.cpp; sourceTree = "<group>"; };
+		C3F50DAD1BC9B103002A18FA /* 10.08_kl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10.08_kl.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		C36419171BB7109A00D74FF2 = {
 			isa = PBXGroup;
 			children = (
+				C3F50DAC1BC9B103002A18FA /* 10.08_kl */,
 				C36419221BB7109A00D74FF2 /* LackoProg */,
 				C36419211BB7109A00D74FF2 /* Products */,
 			);
@@ -60,6 +62,15 @@
 				C36419231BB7109A00D74FF2 /* main.cpp */,
 			);
 			path = LackoProg;
+			sourceTree = "<group>";
+		};
+		C3F50DAC1BC9B103002A18FA /* 10.08_kl */ = {
+			isa = PBXGroup;
+			children = (
+				C3F50DAD1BC9B103002A18FA /* 10.08_kl.cpp */,
+			);
+			name = 10.08_kl;
+			path = 10.08_kl/10.08_kl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C36419241BB7109A00D74FF2 /* main.cpp in Sources */,
+				C3F50DC31BC9B1C4002A18FA /* 10.08_kl.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
